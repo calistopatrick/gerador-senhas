@@ -8,7 +8,7 @@
 @keyframes pan {100% {background-position: 15% 25%;}}
 body{
     margin: 0px;
-    background-image: url("/img/Sweet-Morning-100-Vertices.jpeg");
+    background-image: url("https://i2.wp.com/www.lowpolygonart.com/wp-content/uploads/2017/12/Sweet-Morning-100-Vertices.jpeg?fit=840%2C525");
     background-repeat: no-repeat;
     background-size: cover;
     animation: pan 6s;
