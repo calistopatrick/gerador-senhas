@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+*{
+    margin: 0;
+    box-shadow: 0;
+    padding: 0;
+}
+@keyframes pan {100% {background-position: 15% 25%;}}
+body{
+    margin: 0px;
+    background-image: url("/img/Sweet-Morning-100-Vertices.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s;
+}
+.cadeado{
+    width: 100px;
+    height: 100px;
+    margin: 50px 0;
+}
+.container{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    width: 400px;
+    height: 800px;
+}
+
+#resultado{
+    resize: none;
+    text-align: center;
+    font-size: 30px;
+}
+.opcoes{
+    margin:20px;
+    padding: 0px 20px;
+}
