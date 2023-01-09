@@ -1,4 +1,4 @@
 function mostraTamanho(novoTamanho) {
-    document.getElementById("exibeTamanho").innerHTML = novoTamanho;
+  document.getElementById("exibeTamanho").innerHTML = novoTamanho;
 }
 
