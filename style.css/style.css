@@ -29,7 +29,12 @@ body {
   width: 400px;
   height: 800px;
 }
-
+.container-valor{
+  margin: 20px 0;
+}
+#exibeTamanho{
+  font-size: 30px;
+}
 #resultado {
   resize: none;
   text-align: center;
@@ -39,8 +44,17 @@ body {
   margin: 20px;
   padding: 0px 20px;
 }
-
-.teste{
+.opcoes-senha{
+  display: flex;
+  justify-content: space-between;
+}
+.opcoes-botoes{
+  text-align: center;
+}
+#btnGerador{
+margin: 20px 20px;
+}
+.cartao{
   background: rgb(255, 255, 255);
   padding: 20px;
   box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.25);
